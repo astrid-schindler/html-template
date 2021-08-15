@@ -1,0 +1,32 @@
+footer{
+    display: contents;
+}
+
+.footer {
+    border-top: 0.01em solid #eae9e9;
+    grid-area: 13 / 1 / 13 / 13;
+    height: 80px;
+}
+
+.footer-copyright {
+    padding-top: 40px;
+    padding-left: 20px;
+    color: #ababab;
+    grid-area: 13 / 1 / 13 / 7;
+    height: 80px;
+}
+
+.footer-social {
+    padding-top: 40px;
+    grid-area: 13 / 5 / 13 / 13;
+    justify-self: end;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-social a:hover {
+    color: #5b9457;
+}

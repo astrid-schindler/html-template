@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: antarctican-mono, "Courier New", sans-serif;
+    color: #5b9457;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+h3{
+    font-size: 45px;
+}
+
+h4{
+    font-size: 40px;
+}
+
+h5{
+    font-size: 30px;
+}
+
+h6{
+    font-size: 20px;
+}
+
+.headline__bold{
+    font-weight: 600;
+}

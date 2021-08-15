@@ -1,0 +1,31 @@
+@import url(modules/organisms/header/header.css);
+@import url(modules/organisms/footer/footer.css);
+@import url(modules/organisms/teaser/teaser.css);
+@import url(modules/atoms/animation/animation.css);
+@import url(modules/atoms/image/image.css);
+@import url(modules/atoms/headline/headline.css);
+
+body{
+    background-color: white;
+    font-family: antarctican-mono, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    display: contents;
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto repeat(1, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+
