@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/astrid-schindler/html-template/issues"
   },
-  "homepage": "https://github.com/astrid-schindler/html-template#readme"
+  "homepage": "https://github.com/astrid-schindler/html-template#readme",
+  "dependencies": {
+    "sass": "^1.37.5",
+    "surge": "^0.23.0"
+  }
 }

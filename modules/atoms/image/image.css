@@ -51,6 +51,13 @@ img:hover {
 
 @media (min-width:1200px) {
     img {
+        max-width: 600px;
+        max-height: inherit;
+    }
+}
+
+@media (min-width:1520px) {
+    img {
         max-width: 800px;
         max-height: inherit;
     }

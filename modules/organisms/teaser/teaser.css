@@ -83,3 +83,10 @@
     /*animation: float2 6s ease-in-out infinite;
      */
 }
+
+@media (max-width: 768px){
+    .parent, .content, .content2, .content3, .content-img, .content-img2, .content-img3, .content-text, .content-text2, .content-text3, .simple-text{
+
+    }
+
+}
