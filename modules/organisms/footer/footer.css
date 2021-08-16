@@ -13,6 +13,7 @@ footer{
     padding-left: 20px;
     color: #ababab;
     grid-area: 13 / 1 / 13 / 7;
+    justify-self: start;
     height: 80px;
 }
 
@@ -28,5 +29,5 @@ footer{
 }
 
 .footer-social a:hover {
-    color: #5b9457;
+    color: #dca314;
 }

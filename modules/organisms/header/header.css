@@ -20,16 +20,14 @@ header{
 
 .header-logo {
     padding: 20px;
-    display: inline;
+    grid-area: 1 / 1 / 1 / 2;
     font-weight: 600;
     margin: 16px;
     font-size: 1.2rem;
     text-transform: uppercase;
     color: #dca314;
     letter-spacing: 5px;
-    grid-area: 1 / 1 / 2 / 3;
     height: 80px;
-    align-self: center;
     position: fixed;
     z-index: 100;
 }
@@ -60,4 +58,10 @@ header{
 
 .header-menu a:hover {
     color: #dca314;
+}
+
+@media (min-width: 768px){
+    header{
+
+    }
 }

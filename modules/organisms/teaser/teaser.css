@@ -1,92 +1,121 @@
-.content{
-    grid-area: 2 / 2 / 7 / 7;
-}
-
-.more{
-    color: #dca314;
-    font-family: antarctican-mono, sans-serif;
-}
-.more:hover{
-    font-weight: 600;
-}
-
-.content-text{
-    grid-area: 2 / 8 / 6 / 12;
-    padding-left: 60px;
-    /*animation: float3 4s ease-in-out infinite;
-     */
-}
-
-.simple-text{
-    grid-area: 6 / 8 / 4 / 12;
-    color: #000000;
-    padding-left: 60px;
-    font-weight: 400;
-    /*animation: float3 4s ease-in-out infinite;
-     */
-}
-
-.content-img{
-    width: 800px;
-    overflow: hidden;
-    -webkit-filter: grayscale(40%);
-    transform: translatey(0px);
-    /*animation: float 6s ease-in-out infinite;
-     */
-}
-
-.content2{
-    grid-area: 5 / 7 / 9 / 12;
-    padding-top: 180px;
-    justify-self: end;
-}
-
-.content-text2{
-    grid-area: 9 / 8 / 10 / 13;
-    text-align: left;
-    /* animation: float3 6s ease-in-out infinite;
-     */
-}
-
-.content-img2{
-    width: 650px;
-    overflow: hidden;
-    transform: translatey(0px);
-    -webkit-filter: grayscale(40%);
-    /* animation: float2 6s ease-in-out infinite;
-     */
-}
-
-.content3{
-    grid-area: 8 / 1 / 12 / 6;
-    padding-left: 50px;
-    padding-top: 50px;
-}
-
-.content-text3{
-    grid-area: 6 / 2 / 9 / 7;
-    color: #dca314;
-    padding-top: 150px;
-    font-size: 50px;
-    font-weight: 300;
-    text-align: right;
-    padding-right: 50px;
-    /*animation: float3 6s ease-in-out infinite;
-     */
-}
-
-.content-img3{
-    width: 750px;
-    overflow: hidden;
-    -webkit-filter: grayscale(40%);
-    transform: translatey(0px);
-    /*animation: float2 6s ease-in-out infinite;
-     */
-}
-
-@media (max-width: 768px){
+@media (min-width: 320px){
     .parent, .content, .content2, .content3, .content-img, .content-img2, .content-img3, .content-text, .content-text2, .content-text3, .simple-text{
-
+        grid-area: auto / 4 / auto / 10;
+        padding: 0;
+        text-align: center;
+        justify-self: center;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
+}
+
+@media (min-width: 1400px) {
+
+    .content {
+        grid-area: 2 / 2 / auto / 12;
+        text-align: left;
+    }
+
+    .content .more {
+        color: #dca314;
+        font-family: antarctican-mono, sans-serif;
+    }
+
+    .content .more:hover {
+        font-weight: 600;
+    }
+
+    .content .content-text {
+        padding-left: 60px;
+        text-align: left;
+        /*animation: float3 4s ease-in-out infinite;
+         */
+    }
+
+    .content .simple-text {
+        color: #000000;
+        padding-left: 160px;
+        font-weight: 400;
+        text-align: justify;
+        /*animation: float3 4s ease-in-out infinite;
+         */
+    }
+
+    .content .content-img {
+        width: 740px;
+        overflow: hidden;
+        -webkit-filter: grayscale(40%);
+        transform: translatey(0px);
+        float: left;
+        /*animation: float 6s ease-in-out infinite;
+         */
+    }
+
+    .content2 {
+        grid-area: 3 / 2 / auto / 12;
+        justify-self: end;
+    }
+
+    .content2 .content-text2 {
+        text-align: right;
+        /* animation: float3 6s ease-in-out infinite;
+         */
+    }
+
+    .content2 .simple-text2 {
+        color: #000000;
+        font-weight: 400;
+        direction:rtl;
+        text-align: justify;
+        /*animation: float3 4s ease-in-out infinite;
+         */
+    }
+
+    .content2 .content-img2 {
+        width: 740px;
+        overflow: hidden;
+        transform: translatey(0px);
+        -webkit-filter: grayscale(40%);
+        float: right;
+        /* animation: float2 6s ease-in-out infinite;
+         */
+    }
+
+    .content3 {
+        grid-area: 4 / 2 / auto / auto;
+        padding-left: 50px;
+        padding-top: 50px;
+    }
+
+    .content3 .content-text3 {
+        color: #dca314;
+        padding-top: 150px;
+        font-size: 50px;
+        font-weight: 300;
+        text-align: right;
+        padding-right: 50px;
+        /*animation: float3 6s ease-in-out infinite;
+         */
+    }
+
+    .content3 .simple-text3 {
+        color: #000000;
+        padding-left: 160px;
+        font-weight: 400;
+        text-align: left;
+        /*animation: float3 4s ease-in-out infinite;
+         */
+    }
+
+    .content3 .content-img3 {
+        width: 740px;
+        overflow: hidden;
+        -webkit-filter: grayscale(40%);
+        transform: translatey(0px);
+        /*animation: float2 6s ease-in-out infinite;
+         */
+    }
 }
