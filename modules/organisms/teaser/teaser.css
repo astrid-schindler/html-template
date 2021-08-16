@@ -3,7 +3,7 @@
 }
 
 .more{
-    color: #5b9457;
+    color: #dca314;
     font-family: antarctican-mono, sans-serif;
 }
 .more:hover{
@@ -65,7 +65,7 @@
 
 .content-text3{
     grid-area: 6 / 2 / 9 / 7;
-    color: #5b9457;
+    color: #dca314;
     padding-top: 150px;
     font-size: 50px;
     font-weight: 300;
