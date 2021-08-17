@@ -22,7 +22,7 @@ main{
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: auto repeat(1, 1fr);
     grid-column-gap: 25px;
-    grid-row-gap: 25px;
+    grid-row-gap: 5px;
     margin-left: 80px;
     margin-right: 80px;
 }
