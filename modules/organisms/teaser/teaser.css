@@ -17,14 +17,22 @@
     .content {
         grid-area: 2 / 2 / auto / 12;
         text-align: left;
+        padding-top: 50px;
     }
 
-    .content .more {
+    .content a, .content2 a, .content3 a {
         color: #dca314;
         font-family: antarctican-mono, sans-serif;
+        text-decoration: none;
+        direction: rtl;
+        text-align: left;
     }
 
-    .content .more:hover {
+     .content2 a{
+        text-align: right;
+    }
+
+    .content a:hover, .content2 a:hover, .content3 a:hover {
         font-weight: 600;
     }
 
@@ -44,19 +52,41 @@
          */
     }
 
+    .credits{
+        color: #989898;
+        font-size: 13px;
+    }
+
     .content .content-img {
-        width: 740px;
+        max-width: 740px;
         overflow: hidden;
         -webkit-filter: grayscale(40%);
-        transform: translatey(0px);
         float: left;
         /*animation: float 6s ease-in-out infinite;
          */
     }
 
+    .content .content-img:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+
+    }
+
+    .content2 .content-img2:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+    }
+
+    .content3 .content-img3:hover {
+        filter: none;
+        -webkit-filter: grayscale(0);
+    }
+
     .content2 {
         grid-area: 3 / 2 / auto / 12;
         justify-self: end;
+        padding-top: 50px;
+        text-align: right;
     }
 
     .content2 .content-text2 {
@@ -75,7 +105,7 @@
     }
 
     .content2 .content-img2 {
-        width: 740px;
+        max-width: 740px;
         overflow: hidden;
         transform: translatey(0px);
         -webkit-filter: grayscale(40%);
@@ -85,17 +115,16 @@
     }
 
     .content3 {
-        grid-area: 4 / 2 / auto / auto;
-        padding-left: 50px;
+        grid-area: 4 / 2 / auto / 12;
         padding-top: 50px;
+        text-align: left;
     }
 
     .content3 .content-text3 {
         color: #dca314;
-        padding-top: 150px;
         font-size: 50px;
         font-weight: 300;
-        text-align: right;
+        text-align: left;
         padding-right: 50px;
         /*animation: float3 6s ease-in-out infinite;
          */
@@ -103,18 +132,18 @@
 
     .content3 .simple-text3 {
         color: #000000;
-        padding-left: 160px;
         font-weight: 400;
-        text-align: left;
+        text-align: justify;
         /*animation: float3 4s ease-in-out infinite;
          */
     }
 
     .content3 .content-img3 {
-        width: 740px;
+        max-width: 740px;
         overflow: hidden;
         -webkit-filter: grayscale(40%);
         transform: translatey(0px);
+        float: left;
         /*animation: float2 6s ease-in-out infinite;
          */
     }

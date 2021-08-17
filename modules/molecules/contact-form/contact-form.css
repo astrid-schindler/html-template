@@ -9,9 +9,14 @@ main{
 
 fieldset {
     border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
 }
 
 input[type='text'], [type='email'], select, textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     background: none;
     border: none;
     border-bottom: solid 1px #afafaf;
@@ -36,11 +41,15 @@ input[type='text'], [type='email'], select, textarea {
 }
 
 input[type='text']:focus, [type='email']:focus, textarea:focus {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     outline: none;
     padding: 0 0 0.875em 0;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     font-family: antarctican-mono, sans-serif;
     background-color: #dca314;
     border: none;
@@ -49,6 +58,7 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 0;
 }
 
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
