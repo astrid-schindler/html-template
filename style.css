@@ -5,6 +5,7 @@
 @import url(modules/atoms/image/image.css);
 @import url(modules/atoms/headline/headline.css);
 @import url(modules/molecules/contact-form/contact-form.css);
+@import url(modules/pages/home/home.css);
 
 body{
     background-color: white;
