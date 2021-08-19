@@ -10,7 +10,37 @@
     background-color: transparent;
 }
 
+.styled-graphic{
+    grid-area: 2 / 2 / auto / 12;
+    width: 500px;
+    fill: #e3e3e3;
+    color: white;
+    box-shadow: white;
+    justify-content: center;
+}
 
 .fixed{
-      
+      position: fixed;
+      bottom: 0;
+    color: #eae9e9;
+}
+
+.home-social{
+    right: 100px;
+    position: fixed;
+}
+
+.home-social a{
+    color: white;
+}
+
+.border-top{
+    border-top: 1em solid #eae9e9;
+}
+
+.intro_headline{
+    padding-top: 350px;
+    padding-left: 50px;
+    grid-area: 10 / 6 / auto / 12;
+    text-align: left;
 }

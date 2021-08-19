@@ -1,10 +1,17 @@
 main{
-    grid-area: auto / 1 / auto / 13;
+    grid-area: 2 / 2 / auto / 12;
+}
+
+.contactForm-heading{
+    grid-area: 2 / 3 / auto / 11;
 }
 
 .contactForm{
-    width: 400px;
+    grid-area: 3 / 7 / auto / 11;
     font-family: antarctican-mono, sans-serif;
+    padding-left: 20px;
+    border-left: 0.05rem solid gray;
+
 }
 
 fieldset {
