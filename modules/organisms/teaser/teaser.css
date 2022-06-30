@@ -20,7 +20,7 @@
     }
 
     .content a, .content2 a, .content3 a {
-        color: #dca314;
+        color: #8f0929;
         font-family: antarctican-mono, sans-serif;
         text-decoration: none;
         direction: rtl;
@@ -120,7 +120,7 @@
     }
 
     .content3 .content-text3 {
-        color: #dca314;
+        color: #8f0929;
         font-size: 50px;
         font-weight: 300;
         text-align: left;

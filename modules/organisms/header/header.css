@@ -25,7 +25,7 @@ header{
     margin: 16px;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: #dca314;
+    color: #8f0929;
     letter-spacing: 5px;
     height: 80px;
     position: fixed;
@@ -58,7 +58,7 @@ header{
 }
 
 .header-menu a:hover {
-    color: #dca314;
+    color: #8f0929;
 }
 
 @media (min-width: 768px){
